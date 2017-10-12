@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>マイサイト</title>
+	<link rel="stylesheet" href="css/common.css" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header_wrap">
+		<header id="header">
+			<ul class="menu">
+				<li class="menu_link"><a href="#">プロフィール</a></li><!-- /.menu_link -->
+				<li class="menu_link"><a href="#">コンテンツ</a></li><!-- /.menu_link -->
+				<li class="menu_link"><a href="#">コンタクト</a></li><!-- /.menu_link -->
+				<li class="menu_link"><a href="#">リンク</a></li><!-- /.menu_link -->
+			</ul><!-- /.menu -->
+		</header><!-- /#header -->
+	</div><!-- /#header_wrap -->
+	<div id="main_wrap">
+		<main id="main">
+			<div id="firstview">
+				<h2 class="fv_title">マイサイト</h2><!-- /.fv_title -->
+			</div><!-- /#firstview -->
+			<div id="profile">
+				<h2 class="prof_title">プロフィール</h2><!-- /.prof_title -->
+				<div class="prof_info">
+					<div class="about">
+						<h3 class="about_title">アバウト　ミー</h3><!-- /.about_title -->
+						<p class="thumbnail"><img src="image/about.svg" alt="アバウト　ミー" /></p><!-- /.thumbnail -->
+						<p class="text">生年月日：１９９８年１月１３日<br />性格：好奇心旺盛<br />座右の銘：信じる者は報われる<br />好きなもの：アニメ</p><!-- /.text -->
+					</div><!-- /.about -->
+					<div class="about">
+						<h3 class="about_title">資格・免許</h3><!-- /.about_title -->
+						<p class="thumbnail"><img src="image/about.svg" alt="資格・免許" /></p><!-- /.thumbnail -->
+						<p class="text">Excel３級・Word２級・普通自動車免許・Photoshopスタンダード・Illustlatorスタンダード・漢検３級・数検３級・英検３級...等</p><!-- /.text -->
+					</div><!-- /.about -->
+					<div class="about">
+						<h3 class="about_title">最近の出来事</h3><!-- /.about_title -->
+						<p class="thumbnail"><img src="image/about.svg" alt="学歴" /></p><!-- /.thumbnail -->
+						<p class="text">山ユリの会のボランティア<br /><a href="https://github.com/">GitHubのアカウントの作成</a><br />文化祭<br />技能五輪予選通過</p><!-- /.text -->
+					</div><!-- /.about -->
+				</div><!-- /.prof_info -->
+			</div><!-- /#profile -->
+			<div id="content">
+				<h2 class="content_title">コンテンツ</h2><!-- /.content_title -->
+				<ul class="content_info">
+					<li class="content_link">
+						<p class="text"><a href="#"><img src="image/australia.svg" alt="austraria" />絶景大陸オーストラリア</a></p><!-- .text -->
+					</li><!-- /.content_link -->
+					<li class="content_link">
+						<p class="text"><a href="#"><img src="image/childoflight.svg" alt="ChildOfLight" />ChildOfLight</a></p><!-- .text -->
+					</li><!-- /.content_link -->
+					<li class="content_link">
+						<p class="text"><a href="#"><img src="image/disneyresort.svg" alt="disneyresort" />ディズニーリゾート</a></p><!-- .text -->
+					</li><!-- /.content_link -->
+					<li class="content_link">
+						<p class="text"><a href="#"><img src="image/godiva.svg" alt="ゴディバ" />ゴディバ</a></p><!-- .text -->
+					</li><!-- /.content_link -->
+					<li class="content_link">
+						<p class="text"><a href="#"><img src="image/lego.svg" alt="lego" />レゴ</a></p><!-- .text -->
+					</li><!-- /.content_link -->
+					<li class="content_link">
+						<p class="text"><a href="#"><img src="image/maam.svg" alt="maam" />カントリーマーム</a></p><!-- .text -->
+					</li><!-- /.content_link -->
+				</ul><!-- /.content_info -->
+			</div><!-- /#content -->
+			<div id="contact">
+				<h2 class="contact_title">コンタクト</h2><!-- /.contact_title -->
+				<form action="sendmail.php" method="post">
+					<div class="send">
+						<p class="text">お名前</p><!-- /.text -->
+						<p class="text">
+							<input type="text" name="username" value=""  />
+						</p><!-- /.text -->
+					</div><!-- /.send -->
+					<div class="send">
+						<p class="text">メールアドレス</p><!-- /.text -->
+						<p class="text">
+							<input type="text" name="email" value=""  />
+						</p><!-- /.text -->
+					</div>
+					<div class="send">
+						<p class="text">件　名</p><!-- /.text -->
+						<p class="text">
+							<input type="text" name="theme" value=""  />
+						</p><!-- /.text -->
+					</div>
+					<div class="send">
+						<p class="text">本　文</p><!-- /.text -->
+						<p class="text">
+							<textarea name="message" id="message" cols="30" rows="5"></textarea>
+						</p><!-- /.text -->
+					</div>
+					<div class="btn">
+						<button type="submit" name="submit" class="text">内容を送信する</button>
+						<button type="reset" class="text">キャンセル</button>
+					</div>
+				</form>
+			</div><!-- /#contact -->
+		</main><!-- /#main -->
+	</div><!-- /#main_wrap -->
+	<div id="footer_wrap">
+		<footer id="footer">
+			<address class="address">&copy;2017 YUDAI ITO.All Rights Reserved.</address><!-- /.address -->
+		</footer><!-- /#footer -->
+	</div><!-- /#footer_wrap -->
+</div><!-- /#wrapper -->
+</body>
+</html>
