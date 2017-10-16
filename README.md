@@ -5,7 +5,7 @@ vivid_portfolio
 
 ## ファイル構成
 - README.md
-	- トップページです。
+	- このページの詳細です。
 - index.html
 	- Web公開されるファイルです。
 - sendmail.php
