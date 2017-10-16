@@ -3,107 +3,125 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
-	<title>マイサイト</title>
+	<title>Fantasy</title>
 	<link rel="stylesheet" href="css/common.css" />
 </head>
 <body>
 <div id="wrapper">
 	<div id="header_wrap">
 		<header id="header">
-			<ul class="menu">
-				<li class="menu_link"><a href="#">プロフィール</a></li><!-- /.menu_link -->
-				<li class="menu_link"><a href="#">コンテンツ</a></li><!-- /.menu_link -->
-				<li class="menu_link"><a href="#">コンタクト</a></li><!-- /.menu_link -->
-				<li class="menu_link"><a href="#">リンク</a></li><!-- /.menu_link -->
-			</ul><!-- /.menu -->
+			<nav>
+				<ul class="header_menu">
+					<li class="menu_link"><a href="#profile" class="text">Profile</a></li>
+					<li class="menu_link"><a href="#works" class="text">Works</a></li>
+					<li class="menu_link"><a href="#contact" class="text">Contact</a></li>
+				</ul><!-- /.menu -->
+			</nav>
 		</header><!-- /#header -->
 	</div><!-- /#header_wrap -->
 	<div id="main_wrap">
 		<main id="main">
-			<div id="firstview">
-				<h2 class="fv_title">マイサイト</h2><!-- /.fv_title -->
-			</div><!-- /#firstview -->
-			<div id="profile">
-				<h2 class="prof_title">プロフィール</h2><!-- /.prof_title -->
+			<section id="firstview">
+				<h1 class="fv_title">Fantasy</h1>
+			</section><!-- /#firstview -->
+			<section id="profile">
+				<h2 class="prof_title">Profile</h2>
 				<div class="prof_info">
 					<div class="about">
-						<h3 class="about_title">アバウト　ミー</h3><!-- /.about_title -->
-						<p class="thumbnail"><img src="image/about.svg" alt="アバウト　ミー" /></p><!-- /.thumbnail -->
-						<p class="text">生年月日：１９９８年１月１３日<br />性格：好奇心旺盛<br />座右の銘：信じる者は報われる<br />好きなもの：アニメ</p><!-- /.text -->
+						<h3 class="about_title">自己紹介</h3>
+						<p class="thumbnail"><img src="image/about.svg" alt="アバウト　ミー" /></p>
+						<ul class="about_info">
+							<li class="text">生年月日：１９９８年１月１３日</li>
+							<li class="text">性格：素直</li>
+							<li class="text">座右の銘：信じる者は報われる</li>
+							<li class="text">好きなもの：アニメ</li>
+						</ul><!-- ./about_info -->
 					</div><!-- /.about -->
 					<div class="about">
-						<h3 class="about_title">資格・免許</h3><!-- /.about_title -->
-						<p class="thumbnail"><img src="image/about.svg" alt="資格・免許" /></p><!-- /.thumbnail -->
-						<p class="text">Excel３級・Word２級・普通自動車免許・Photoshopスタンダード・Illustlatorスタンダード・漢検３級・数検３級・英検３級...等</p><!-- /.text -->
+						<h3 class="about_title">資格・免許</h3>
+						<p class="thumbnail"><img src="image/australia.svg" alt="資格・免許" /></p>
+						<p class="text">Excel３級・Word２級・普通自動車免許・Photoshopスタンダード・Illustlatorスタンダード・漢検３級・数検３級・英検３級...等</p>
 					</div><!-- /.about -->
 					<div class="about">
-						<h3 class="about_title">最近の出来事</h3><!-- /.about_title -->
-						<p class="thumbnail"><img src="image/about.svg" alt="学歴" /></p><!-- /.thumbnail -->
-						<p class="text">山ユリの会のボランティア<br /><a href="https://github.com/">GitHubのアカウントの作成</a><br />文化祭<br />技能五輪予選通過</p><!-- /.text -->
+						<h3 class="about_title">最近の出来事</h3>
+						<p class="thumbnail"><img src="image/event.svg" alt="学歴" /></p>
+						<ul class="about_info">
+							<li class="text">山ユリの会のボランティア</li>
+							<li class="text"><a href="https://github.com/" class="text">GitHubのアカウントの作成</a></li>
+							<li class="text">文化祭</li>
+							<li class="text">技能五輪予選通過</li>
+						</ul><!-- ./about_info -->
 					</div><!-- /.about -->
 				</div><!-- /.prof_info -->
-			</div><!-- /#profile -->
-			<div id="content">
-				<h2 class="content_title">コンテンツ</h2><!-- /.content_title -->
-				<ul class="content_info">
-					<li class="content_link">
-						<p class="text"><a href="#"><img src="image/australia.svg" alt="austraria" />絶景大陸オーストラリア</a></p><!-- .text -->
-					</li><!-- /.content_link -->
-					<li class="content_link">
-						<p class="text"><a href="#"><img src="image/childoflight.svg" alt="ChildOfLight" />ChildOfLight</a></p><!-- .text -->
-					</li><!-- /.content_link -->
-					<li class="content_link">
-						<p class="text"><a href="#"><img src="image/disneyresort.svg" alt="disneyresort" />ディズニーリゾート</a></p><!-- .text -->
-					</li><!-- /.content_link -->
-					<li class="content_link">
-						<p class="text"><a href="#"><img src="image/godiva.svg" alt="ゴディバ" />ゴディバ</a></p><!-- .text -->
-					</li><!-- /.content_link -->
-					<li class="content_link">
-						<p class="text"><a href="#"><img src="image/lego.svg" alt="lego" />レゴ</a></p><!-- .text -->
-					</li><!-- /.content_link -->
-					<li class="content_link">
-						<p class="text"><a href="#"><img src="image/maam.svg" alt="maam" />カントリーマーム</a></p><!-- .text -->
-					</li><!-- /.content_link -->
-				</ul><!-- /.content_info -->
-			</div><!-- /#content -->
-			<div id="contact">
-				<h2 class="contact_title">コンタクト</h2><!-- /.contact_title -->
+			</section><!-- /#profile -->
+			<section id="work">
+				<h2 class="work_title">Works</h2>
+				<ul class="work_info">
+					<li class="work_link">
+						<p><a href="#" class="text"><img src="image/australia.svg" alt="australia" />絶景大陸オーストラリア</a></p>
+					</li><!-- /.work_link -->
+					<li class="work_link">
+						<p><a href="#" class="text"><img src="image/childoflight.svg" alt="ChildOfLight" />ChildOfLight</a></p>
+					</li><!-- /.work_link -->
+					<li class="work_link">
+						<p><a href="#" class="text"><img src="image/disneyresort.svg" alt="disneyresort" />ディズニーリゾート</a></p>
+					</li><!-- /.work_link -->
+					<li class="work_link">
+						<p><a href="#" class="text"><img src="image/godiva.svg" alt="ゴディバ" />ゴディバ</a></p>
+					</li><!-- /.work_link -->
+					<li class="work_link">
+						<p><a href="#" class="text"><img src="image/lego.svg" alt="lego" />レゴ</a></p>
+					</li><!-- /.work_link -->
+					<li class="work_link">
+						<p><a href="#" class="text"><img src="image/maam.svg" alt="maam" />カントリーマーム</a></p>
+					</li><!-- /.work_link -->
+				</ul><!-- /.work_info -->
+			</section><!-- /#work -->
+			<section id="contact">
+				<h2 class="contact_title">Contact</h2><!-- /.contact_title -->
 				<form action="sendmail.php" method="post">
 					<div class="send">
-						<p class="text">お名前</p><!-- /.text -->
+						<p class="text">お名前</p>
 						<p class="text">
 							<input type="text" name="username" value=""  />
 						</p><!-- /.text -->
 					</div><!-- /.send -->
 					<div class="send">
-						<p class="text">メールアドレス</p><!-- /.text -->
+						<p class="text">メールアドレス</p>
 						<p class="text">
 							<input type="text" name="email" value=""  />
 						</p><!-- /.text -->
-					</div>
+					</div><!-- /.send -->
 					<div class="send">
 						<p class="text">件　名</p><!-- /.text -->
 						<p class="text">
 							<input type="text" name="theme" value=""  />
 						</p><!-- /.text -->
-					</div>
+					</div><!-- /.send -->
 					<div class="send">
-						<p class="text">本　文</p><!-- /.text -->
+						<p class="text">本　文</p>
 						<p class="text">
 							<textarea name="message" id="message" cols="30" rows="5"></textarea>
 						</p><!-- /.text -->
-					</div>
+					</div><!-- /.send -->
 					<div class="btn">
 						<button type="submit" name="submit" class="text">内容を送信する</button>
-						<button type="reset" class="text">キャンセル</button>
-					</div>
+						<button type="reset" class="text">内容をリセットする</button>
+					</div><!-- /.btn -->
 				</form>
-			</div><!-- /#contact -->
+			</section><!-- /#contact -->
 		</main><!-- /#main -->
 	</div><!-- /#main_wrap -->
 	<div id="footer_wrap">
 		<footer id="footer">
-			<address class="address">&copy;2017 YUDAI ITO.All Rights Reserved.</address><!-- /.address -->
+			<nav class="footer_menu_wrap">
+				<ul class="footer_menu">
+					<li class="menu_link"><a href="#profile" class="text">Profile</a></li>
+					<li class="menu_link"><a href="#work" class="text">Works</a></li>
+					<li class="menu_link"><a href="#contact" class="text">Contact</a></li>
+				</ul><!-- /.menu -->
+			</nav><!-- .footer_menu_wrap -->
+			<p class="copyright">&copy;2017 YUDAI ITO.All Rights Reserved.</p>
 		</footer><!-- /#footer -->
 	</div><!-- /#footer_wrap -->
 </div><!-- /#wrapper -->
