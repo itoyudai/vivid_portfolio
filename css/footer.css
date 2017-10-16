@@ -1,11 +1,35 @@
-#footer_wrap{
-	width: 100%;
-	height: auto;
+#footer:after{
+	display: block;
+	content: "";
+	clear: both;
 }
 #footer{
+	margin: 0 auto;
+	max-width: 1024px;
+	width: 100%;
+}
+#footer .totop_wrap{
+	height: 100px;
+}
+#footer .footer_menu_wrap{
+	float: left;
+}
+#footer .footer_menu{
+	display: flex;
 	height: 50px;
 	line-height: 50px;
+	justify-content: flex-start;
+	list-style: none;
 }
-#footer .address{
+#footer .menu_link{
+	margin: 0 15px;
 	text-align: center;
+}
+#footer .copyright{
+	float: right;
+	margin: 0 15px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #fff;
 }
