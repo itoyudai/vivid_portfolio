@@ -8,8 +8,6 @@ vivid_portfolio
 	- このページの詳細です。
 - index.html
 	- Web公開されるファイルです。
-- sendmail.php
-	- メールを送るためのPHPです。
 - js
 	- jsファイルの置き場所です。
 - css
