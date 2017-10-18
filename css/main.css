@@ -52,6 +52,10 @@
 }
 #profile .thumbnail{
 	margin: 20px 0;
+	border: 1px solid #fff;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
 }
 #profile .about a{
 	text-decoration: underline;
@@ -59,12 +63,10 @@
 #profile .about_info{
 	list-style: none;
 }
+
 #work{
 	margin-bottom: 20px;
 	width: 100%;
-}
-#work .thumbnail{
-	margin: 30px 0;
 }
 #work .work_title{
 	margin-bottom: 30px;
@@ -89,6 +91,12 @@
 	display: block;
 	width: 100%;
 	height: 100%;
+}
+#work .thumbnail{
+	border: 1px solid #fff;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 #contact{
@@ -122,7 +130,63 @@
 }
 #contact form button{
 	margin: 0 5%;
+	border: 1px solid #fff;
 	width: 40%;
 	height: 50px;
 	background-color: transparent;
+}
+
+#totop{
+	width: 100%;
+	height: 100px;
+}
+#totop .totop_img{
+	margin: 0 auto;
+	width: 200px;
+}
+#totop img{
+	width: 200px;
+}
+@media screen and (max-width : 767px){
+	#profile{
+		margin-bottom: 0;
+	}
+	#profile .prof_info{
+		display: block;
+	}
+	#profile .about{
+		margin: 0 auto 20px;
+		min-width: 280px;
+		width: 50%;
+	}
+	#profile .about:nth-of-type(2){
+		margin: 0 auto 20px;
+	}
+
+	#work{
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	#work .work_link{
+		width: 48%;
+	}
+	#work .work_link:nth-of-type(2),
+	#work .work_link:nth-of-type(5){
+		margin: 0 0 30px 0;
+	}
+	#work .work_link:nth-of-type(odd){
+		margin-right: 4%;
+	}
+	#contact{
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+}
+@media screen and (max-width : 480px){
+	#work .work_link{
+		width: 100%;
+	}
+	#contact form button{
+		height: 40px;
+	}
 }
