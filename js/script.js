@@ -1,12 +1,12 @@
 $(function(){
+	var SCROLL_SPEED = 1000;
 
 	var totop_image = [
-		totopAfter = 'image/totop_after.png',
-		totopBefore = 'image/totop_before.png'
+		totopAfter = 'images/totop_after.png',
+		totopBefore = 'images/totop_before.png'
 	];
 
 	$('a[href ^= "#"]').click(function(){
-		var SCROLL_SPEED = 1000;
 		var href = $(this).attr('href');
 		var target = $(href == '#' || href == '' ? 'html' : href);
 		var position = target.offset().top;
