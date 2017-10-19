@@ -1,10 +1,10 @@
 $(function(){
 	var SCROLL_SPEED = 1000;
 
-	var totop_image = [
-		totopAfter = 'images/totop_after.png',
-		totopBefore = 'images/totop_before.png'
-	];
+	var totop_image = {
+		totopAfter : 'images/totop_after.png',
+		totopBefore : 'images/totop_before.png'
+	};
 
 	$('a[href ^= "#"]').click(function(){
 		var href = $(this).attr('href');
@@ -14,9 +14,9 @@ $(function(){
 		return false;
 	});
 	$('#totop a').hover(function(){
-		$('img',this).attr('src',totopAfter);
+		$('img',this).attr('src',totop_image['totopAfter']);
 	},function(){
-		$('img',this).attr('src',totopBefore);
+		$('img',this).attr('src',totop_image['totopBefore']);
 	});
 
 });
