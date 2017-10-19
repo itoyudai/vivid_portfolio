@@ -119,10 +119,12 @@
 }
 #contact form input{
 	width: 100%;
+	color: #000;
 	box-sizing: border-box;
 }
 #contact form textarea{
 	width: 100%;
+	color: #000;
 	box-sizing: border-box;
 }
 #contact form .btn{
@@ -138,14 +140,15 @@
 
 #totop{
 	width: 100%;
-	height: 100px;
+	height: 75px;
 }
 #totop .totop_img{
 	margin: 0 auto;
-	width: 200px;
+	width: 150px;
 }
 #totop img{
-	width: 200px;
+	margin-top: 1px;
+	width: 150px;
 }
 @media screen and (max-width : 767px){
 	#profile{
@@ -188,5 +191,14 @@
 	}
 	#contact form button{
 		height: 40px;
+	}
+	#totop{
+		height: 50px;
+	}
+	#totop .totop_img{
+		width: 100px;
+	}
+	#totop img{
+		width: 100px;
 	}
 }
